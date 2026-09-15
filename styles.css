@@ -158,6 +158,7 @@ h1 {
 .split .section-number { margin-bottom: 1rem; }
 .resource-card { position: relative; display: flex; flex-direction: column; min-height: 240px; padding: 2rem; background: var(--red); color: white; text-decoration: none; }
 .resource-card:hover { background: var(--ink); color: white; }
+.resource-card + .resource-card { margin-top: 1.5rem; }
 .resource-card strong { max-width: 430px; margin-top: auto; font: 400 clamp(1.5rem, 3vw, 2.5rem)/1.15 Georgia, serif; }
 .resource-card .arrow { position: absolute; right: 2rem; top: 1.7rem; font-size: 1.5rem; }
 .other-list { list-style: none; margin: 0; padding: 0; }
@@ -182,7 +183,7 @@ footer img { width: 90px; border-radius: 50%; }
 footer a { font-size: .8rem; }
 
 @media (max-width: 760px) {
-  nav a:nth-child(1), nav a:nth-child(3) { display: none; }
+  nav a[href="#research"] { display: none; }
   .hero { grid-template-columns: 1fr; min-height: auto; background-position: 42% center; }
   .affiliation { width: 100%; justify-self: stretch; }
   .section-heading, .work-list article { grid-template-columns: 48px 1fr; }
