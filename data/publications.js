@@ -2,6 +2,7 @@
 // Each link is rendered in order after the authors and note fields.
 window.PUBLICATION_DATA = {
   preprints: [
+    { year: 2026, title: "Regularity of soda-can domains for the p-parabolic equation", authors: "M. Parviainen", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2610.06497" }] },
     { year: 2026, title: "Absorption cutoff and stationary singularities for rounded Gaussian random dynamical systems", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2608.15914" }, { label: "Lean formalization", url: "https://github.com/BennyAvelin/AbsorptionCutoff" }] },
     { year: 2026, title: "χ²-cut-off phenomenon for Galerkin projections of Fokker–Planck equations with monomial potentials", authors: "G. Barrera", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2603.29473" }] },
     { year: 2026, title: "Coarse-grained ellipticity and De Giorgi–Nash–Moser theory", authors: "S. Armstrong, C. De Filippis, T. Kuusi and G. Mingione", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.05690" }] },
