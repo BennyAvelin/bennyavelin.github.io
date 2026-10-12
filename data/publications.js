@@ -2,6 +2,7 @@
 // Each link is rendered in order after the authors and note fields.
 window.PUBLICATION_DATA = {
   preprints: [
+    { year: 2026, title: "Concentration inequalities for leave-one-out cross validation", authors: "L. Viitasaari", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2211.02478" }, { label: "Lean formalization", url: "https://github.com/BennyAvelin/leave-one-out-concentration" }] },
     { year: 2026, title: "Coarse ellipticity and De Giorgi–Nash–Moser theory in the optimal range", authors: "S. Armstrong, T. Kuusi and A. Turpeinen", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2610.11879" }, { label: "Lean formalization", url: "https://github.com/scottnarmstrong/CoarseDeGiorgi" }] },
     { year: 2026, title: "Regularity of soda-can domains for the p-parabolic equation", authors: "M. Parviainen", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2610.06497" }] },
     { year: 2026, title: "Absorption cutoff and stationary singularities for rounded Gaussian random dynamical systems", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2608.15914" }, { label: "Lean formalization", url: "https://github.com/BennyAvelin/AbsorptionCutoff" }] },
@@ -9,8 +10,7 @@ window.PUBLICATION_DATA = {
     { year: 2026, title: "Coarse-grained ellipticity and De Giorgi–Nash–Moser theory", authors: "S. Armstrong, C. De Filippis, T. Kuusi and G. Mingione", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2601.05690" }] },
     { year: 2025, title: "Non-parametric estimation of non-linear diffusion coefficient in parabolic SPDEs", authors: "M. Andersson, V. Garino, P. Ilmonen and L. Viitasaari", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2509.12921" }] },
     { year: 2025, title: "On the Effectiveness of Classical Regression Methods for Optimal Switching Problems", authors: "M. Andersson and M. Olofsson", note: "Accepted in SIAM Journal on Financial Mathematics", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2506.15436" }, { label: "Journal", url: "https://www.siam.org/publications/siam-journals/siam-journal-on-financial-mathematics/" }] },
-    { year: 2024, title: "On the Impact of Approximation Errors on Extreme Quantile Estimation with Applications to Functional Data Analysis", authors: "J. Pere, V. Garino, P. Ilmonen and L. Viitasaari", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2307.03581" }] },
-    { year: 2022, title: "Concentration inequalities for leave-one-out cross validation", authors: "L. Viitasaari", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2211.02478" }] }
+    { year: 2024, title: "On the Impact of Approximation Errors on Extreme Quantile Estimation with Applications to Functional Data Analysis", authors: "J. Pere, V. Garino, P. Ilmonen and L. Viitasaari", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2307.03581" }] }
   ],
   publications: [
     { year: 2025, title: "Training in reverse: How iteration order influences convergence and stability in deep learning", authors: "B. Dherin, A. Karlsson, H. Mazzawi, J. Gonzalvo and M. Munn", note: "Accepted in TMLR", links: [{ label: "TMLR", url: "https://openreview.net/pdf?id=GZCBM2Yo3a" }, { label: "arXiv", url: "https://arxiv.org/abs/2502.01557" }] },
