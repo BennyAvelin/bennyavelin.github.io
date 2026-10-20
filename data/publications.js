@@ -2,6 +2,7 @@
 // Each link is rendered in order after the authors and note fields.
 window.PUBLICATION_DATA = {
   preprints: [
+    { year: 2026, title: "Wiener's criterion and resolutivity for the p-parabolic equation", authors: "M. Parviainen", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2610.26466" }] },
     { year: 2026, title: "Concentration inequalities for leave-one-out cross validation", authors: "L. Viitasaari", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2211.02478" }, { label: "Lean formalization", url: "https://github.com/BennyAvelin/leave-one-out-concentration" }] },
     { year: 2026, title: "Coarse ellipticity and De Giorgi–Nash–Moser theory in the optimal range", authors: "S. Armstrong, T. Kuusi and A. Turpeinen", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2610.11879" }, { label: "Lean formalization", url: "https://github.com/scottnarmstrong/CoarseDeGiorgi" }] },
     { year: 2026, title: "Regularity of soda-can domains for the p-parabolic equation", authors: "M. Parviainen", links: [{ label: "arXiv", url: "https://arxiv.org/abs/2610.06497" }] },
